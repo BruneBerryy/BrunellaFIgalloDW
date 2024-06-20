@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 7</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons/css/boxicons.min.css">
 </head>
+
 <body>
-    
-    <h1 id="nombreProducto">Samsung Z-Flip</h1>
-    <h2 id="precioProducto">Precio: $1300</h2>
 
-    <script src="desafio7.js"></script>
+    <header>
+        <h1>Productos de comida rapida</h1>
+        <div>
+            <div>
+                <i class='bx bx-cart-add'></i>
+                <span id="counter_cart">0</span>
+            </div>
+        </div>
+    </header>
 
+    <div id="container_menuItems"></div>
+
+    <script src="data/data.js"></script>
+    <script src="Desafio10.js"></script>
 </body>
+
 </html>
